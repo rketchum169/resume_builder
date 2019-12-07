@@ -1,4 +1,11 @@
 <html>
+ <style>
+       body {
+         margin: 40px;
+         font-family: "Arial";
+       }
+
+  </style>
  <body>
  <h1>Welcome to the Resume Builder 3000</h1>
  <form action="/resume.php" method="POST">
@@ -6,13 +13,13 @@
  <input type="text" value="" name="name" />
  <br>
  <label>Phone Number</label>
- <input type=="text" value="" name="number" />
+ <input type="text" value="" name="number" />
  <br>
  <label>Email</label>
- <input type=="text" value="" name="email" />
+ <input type="text" value="" name="email" />
  <br>
  <label>Github URL</label>
- <input type=="text" value="" name="web" />
+ <input type="text" value="" name="web" />
  <br>
  <label>Highest Level of Education</label>
  <select name="education" form="education">
@@ -34,7 +41,12 @@
  <input type="text" value="" name="end_date1" />
  <br>
  <label>Responsibilities</label>
- <textarea name="duties1"></textarea> 
+	<br>
+	<textarea name="duties1_1"></textarea>
+	<br>
+	<textarea name="duties1_2"></textarea>
+	<br>
+	<textarea name="duties1_3"></textarea> 
  <br>
  <!–– This the second experience ––>
  <label>Position</label>
@@ -45,7 +57,12 @@
  <input type="text" value="" name="end_date2" />
  <br>
  <label>Responsibilities</label>
- <textarea name="duties2"></textarea>
+	<br>
+	<textarea name="duties2_1"></textarea>
+	<br>
+	<textarea name="duties2_2"></textarea>
+	<br>
+	<textarea name="duties2_3"></textarea>
  <br>
  <!–– This the third experience ––>
  <label>Position</label>
@@ -56,7 +73,12 @@
  <input type="text" value="" name="end_date3" />
  <br>
  <label>Responsibilities</label>
- <textarea name="duties3"></textarea>
+	<br>
+	<textarea name="duties3_1"></textarea>
+	<br>
+	<textarea name="duties3_2"></textarea>
+	<br>
+	<textarea name="duties3_3"></textarea>
  <br>
  <!–– This the fourth experience ––>
  <label>Position</label>
@@ -67,7 +89,12 @@
  <input type="text" value="" name="end_date4" />
  <br>
  <label>Responsibilities</label>
- <textarea name="duties4"></textarea>
+	<br>
+	<textarea name="duties4_1"></textarea>
+	<br>
+	<textarea name="duties4_2"></textarea>
+	<br>
+	<textarea name="duties4_3"></textarea>
  <br>
  <!–– Submit Button ––>
  <input type="submit" value="Submit" />
