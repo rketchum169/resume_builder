@@ -1,14 +1,22 @@
 <html>
  <style>
-       body {
-         margin: 50px;
+    body {
+				 float: center;
+         margin-left: 10%;
          font-family: "Arial";
        }
+		hr {
+			   width: 50%;
+		     height: 2px;
+				 color: #000000;  
+				}
 
   </style>
  <body>
  <h1>Welcome to the Resume Builder 3000</h1>
  <form action="/resume.php" method="POST">
+	<h2>Contact</h2>
+<hr align="left">
 	 <label>Full Name:</label>
 	 <input type="text" value="" name="name" />
 	<br>
@@ -32,8 +40,9 @@
 	 </select>
  <br>
 <h2>Experience</h2>
+<hr align="left">
 	 <!–– This the first experience ––>
-			<label>Position</label>
+			<label>Positgion</label>
 			<input type="text" value="" name="position1" />
 			<label>Start Date</label>
 			<input type="date" value="" name="start_date1" />
@@ -96,6 +105,7 @@
 		<br>
 			<textarea name="duties4_3"></textarea>
  <br>
+<hr align="left">
  <!–– Submit Button ––>
  <input type="submit" value="Submit" />
  </form>

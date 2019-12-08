@@ -1,13 +1,13 @@
 <html>
 	<style>
 		body {
-			margin: 20%;
+			margin-left: 10%;
 			font-family: "Arial";
 		}	
 		hr {
 			width: 50%;
 			height: 2px;
-			color: #00000;
+			color: #000000;
 			
 		}	
 	</style>
@@ -16,6 +16,7 @@
 		<!-- This is the top page information --!>
 		<br>
 		<h1><?php	echo "{$_POST["name"]} <br />"; ?></h1>
+		<hr align="left">
 		<hr>
 		<h5>
 			<?php
